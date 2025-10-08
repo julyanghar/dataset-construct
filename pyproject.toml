@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dinov3-feature-extraction"
+name = "dinov3-vit-h"
 version = "0.1.0"
 description = "A minimal environment for DINOv3 image feature extraction and retrieval using Hugging Face Transformers."
 authors = [
@@ -14,49 +14,15 @@ license = { text = "MIT" }
 requires-python = ">=3.10,<3.12"
 
 dependencies = [
-    # --- Core ---
     "torch==2.3.1",
     "torchvision==0.18.1",
-    "torchaudio==2.3.1",
-    "transformers==4.45.2",
-    "huggingface_hub==0.23.4",
-
-    # --- Utils ---
+    "transformers==4.56.0",
+    "huggingface_hub==0.34.0",
+    "accelerate==0.33.0",
     "tqdm==4.66.4",
     "numpy==1.26.4",
     "pillow==10.4.0",
-    "nvidia-ml-py==12.535.133",
-
-    # --- Retrieval / Indexing ---
-    "faiss-gpu==1.8.0",  # or "faiss-cpu==1.8.0" if no GPU
-
-    # --- Optional / Training ---
-    "accelerate==0.33.0",
-    "deepspeed==0.14.4",
-
-    # --- Visualization (optional) ---
-    "matplotlib==3.9.2",
-    "umap-learn==0.5.6",
-    "gradio==4.44.0"
+    "nvidia-ml-py==12.535.133"
 ]
 
-[tool.poetry]
-# 如果你用 poetry，可以在这里定义元信息（可选）
-packages = [{ include = "dinov3_project" }]
-include = ["README.md"]
 
-[tool.poetry.scripts]
-# 可选：提供命令行入口
-dinov3-run = "dinov3_project.main:main"
-
-[tool.setuptools]
-packages = ["dinov3_project"]
-
-[tool.setuptools.package-dir]
-dinov3_project = "src"
-
-[tool.setuptools.exclude-package-data]
-"dinov3_project" = ["__pycache__"]
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/dinov3_project"]
