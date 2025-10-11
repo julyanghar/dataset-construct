@@ -1,0 +1,6 @@
+pyproject.toml
+dinov3_vit_h.egg-info/PKG-INFO
+dinov3_vit_h.egg-info/SOURCES.txt
+dinov3_vit_h.egg-info/dependency_links.txt
+dinov3_vit_h.egg-info/requires.txt
+dinov3_vit_h.egg-info/top_level.txt

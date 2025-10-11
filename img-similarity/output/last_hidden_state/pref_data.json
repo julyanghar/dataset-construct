@@ -1,0 +1,272 @@
+[
+    {
+        "idx": 0,
+        "image": "COCO_train2014_000000353952.jpg",
+        "retrieved_image": "COCO_train2014_000000449517.jpg",
+        "masked_response": "This is a vintage black and white image of a group of [MASK] gathered around a [MASK] on a [MASK]. There are [MASK] in the scene, standing at various positions around the [MASK]. They seem to be preparing to [MASK] the [MASK] or possibly just interacting with it. Two of the [MASK] have [MASK] that can be seen. The [MASK] is prominently featured in the center of the image, with its [MASK] facing slightly to the left. The [MASK] around the [MASK] appear to be enjoying the interaction, giving the image a nostalgic and timeless feel.",
+        "chosen": [
+            {
+                "content": "Describe this image in detail.",
+                "role": "user"
+            },
+            {
+                "content": "This is a vintage black and white image of a group of people gathered around a horse on a street. There are eleven people in the scene, standing at various positions around the horse. They seem to be preparing to ride the horse or possibly just interacting with it.  Two of the people have ties that can be seen. The horse is prominently featured in the center of the image, with its head facing slightly to the left. The people around the horse appear to be enjoying the interaction, giving the image a nostalgic and timeless feel.",
+                "role": "assistant"
+            }
+        ],
+        "rejected": [
+            {
+                "content": "Describe this image in detail.",
+                "role": "user"
+            },
+            {
+                "content": "This is a vintage black and white image of a group of men gathered around a horse on a dirt floor. There are two men in the scene, standing at various positions around the horse. They seem to be preparing to groom the horse or possibly just interacting with it. Two of the men have hats that can be seen. The horse is prominently featured in the center of the image, with its head facing slightly to the left. The men around the horse appear to be enjoying the interaction, giving the image a nostalgic and timeless feel.",
+                "role": "assistant"
+            }
+        ],
+        "img_similarity": 0.6407378911972046
+    },
+    {
+        "idx": 1,
+        "image": "COCO_train2014_000000280206.jpg",
+        "retrieved_image": "COCO_train2014_000000529347.jpg",
+        "masked_response": "The [MASK] and his [MASK] are located on the [MASK], near the [MASK]. They are either [MASK] or [MASK] along the [MASK], where the [MASK] meets the [MASK].",
+        "chosen": [
+            {
+                "content": "Where are the man and his dog located in this image?",
+                "role": "user"
+            },
+            {
+                "content": "The man and his dog are located on the beach, near the ocean. They are either jogging or walking along the shoreline, where the land meets the water.",
+                "role": "assistant"
+            }
+        ],
+        "rejected": [
+            {
+                "content": "Where are the man and his dog located in this image?",
+                "role": "user"
+            },
+            {
+                "content": "The man and his dog are located on the beach, near the ocean. They are either walking or standing along the shoreline, where the ocean meets the beach.",
+                "role": "assistant"
+            }
+        ],
+        "img_similarity": 0.8274757862091064
+    },
+    {
+        "idx": 2,
+        "image": "COCO_train2014_000000169154.jpg",
+        "retrieved_image": "COCO_train2014_000000389793.jpg",
+        "masked_response": "The [MASK] is made of [MASK] [MASK] material.",
+        "chosen": [
+            {
+                "content": "What material is the vase made of?",
+                "role": "user"
+            },
+            {
+                "content": "The vase is made of white ceramic material.",
+                "role": "assistant"
+            }
+        ],
+        "rejected": [
+            {
+                "content": "What material is the vase made of?",
+                "role": "user"
+            },
+            {
+                "content": "The vase is made of glass.",
+                "role": "assistant"
+            }
+        ],
+        "img_similarity": 0.4318501949310303
+    },
+    {
+        "idx": 3,
+        "image": "COCO_train2014_000000478645.jpg",
+        "retrieved_image": "COCO_train2014_000000050096.jpg",
+        "masked_response": "The [MASK] in the [MASK] are [MASK].",
+        "chosen": [
+            {
+                "content": "What color are the fixtures in the bathroom?",
+                "role": "user"
+            },
+            {
+                "content": "The fixtures in the bathroom are white.",
+                "role": "assistant"
+            }
+        ],
+        "rejected": [
+            {
+                "content": "What color are the fixtures in the bathroom?",
+                "role": "user"
+            },
+            {
+                "content": "The silver fixtures in the white bathroom are silver.",
+                "role": "assistant"
+            }
+        ],
+        "img_similarity": 0.8013542294502258
+    },
+    {
+        "idx": 4,
+        "image": "COCO_train2014_000000264733.jpg",
+        "retrieved_image": "COCO_train2014_000000403028.jpg",
+        "masked_response": "The [MASK] in the [MASK] are [MASK].",
+        "chosen": [
+            {
+                "content": "What color are the countertops in the kitchen?",
+                "role": "user"
+            },
+            {
+                "content": "The countertops in the kitchen are gray.",
+                "role": "assistant"
+            }
+        ],
+        "rejected": [
+            {
+                "content": "What color are the countertops in the kitchen?",
+                "role": "user"
+            },
+            {
+                "content": "The countertops in the kitchen are beige.",
+                "role": "assistant"
+            }
+        ],
+        "img_similarity": 0.770856499671936
+    },
+    {
+        "idx": 5,
+        "image": "COCO_train2014_000000239580.jpg",
+        "retrieved_image": "COCO_train2014_000000453512.jpg",
+        "masked_response": "In this image, a [MASK] wearing a [MASK] is airborne as he performs a [MASK] off a set of two [MASK]. The [MASK] is clearly focused on perfecting his [MASK] skills. Additional [MASK] can be observed in various [MASK] throughout the scene. Some of them are closer to the [MASK], while others are in the [MASK], closer to the [MASK] visible in the image. Furthermore, there are two [MASK] standing in the scene, one located in the [MASK] and the other one positioned to the [MASK]. Near one of the [MASK], a [MASK] can also be spotted.",
+        "chosen": [
+            {
+                "content": "Describe this image in detail.",
+                "role": "user"
+            },
+            {
+                "content": "In this image, a skateboarder wearing a white shirt is airborne as he performs a trick off a set of two steps. The young man is clearly focused on perfecting his skateboarding skills.  Additional people can be observed in various locations throughout the scene. Some of them are closer to the skateboarder, while others are in the background, closer to the benches visible in the image. Furthermore, there are two umbrellas standing in the scene, one located in the middle and the other one positioned to the right side. Near one of the benches, a suitcase can also be spotted.",
+                "role": "assistant"
+            }
+        ],
+        "rejected": [
+            {
+                "content": "Describe this image in detail.",
+                "role": "user"
+            },
+            {
+                "content": "In this image, a skateboarder wearing a helmet is airborne as he performs a trick off a set of two ramps. The skateboarder is clearly focused on perfecting his skills. Additional skateboarders can be observed in various positions throughout the scene. Some of them are closer to the ramp, while others are in the background, closer to the skateboarder visible in the image. Furthermore, there are two people standing in the scene, one located near the ramp and the other one positioned to the right. Near one of the ramps, a bench can also be spotted.",
+                "role": "assistant"
+            }
+        ],
+        "img_similarity": 0.7296550869941711
+    },
+    {
+        "idx": 6,
+        "image": "COCO_train2014_000000029712.jpg",
+        "retrieved_image": "COCO_train2014_000000156709.jpg",
+        "masked_response": "The image showcases a [MASK] of [MASK] spread across a [MASK], with some [MASK] down and others [MASK] to [MASK]. There are both [MASK] and [MASK] [MASK], including several baby [MASK] that lay near their [MASK]. All the [MASK] in the scene have [MASK] [MASK]. The [MASK] cover different areas of the [MASK], with one [MASK] located on the [MASK] side, a few in the [MASK], and others towards the [MASK] side of the image. They are [MASK] or [MASK] close to one another, seemingly [MASK] in [MASK] or [MASK].",
+        "chosen": [
+            {
+                "content": "Describe this image in detail.",
+                "role": "user"
+            },
+            {
+                "content": "The image showcases a flock of sheep spread across a field, with some laying down and others standing to graze. There are both large and small sheep, including several baby lambs that lay near their mothers. All the sheep in the scene have yellow ear tags.  The sheep cover different areas of the field, with one group located on the left side, a few in the center, and others towards the right side of the image. They are sitting or standing close to one another, seemingly resting in hay or grazing.",
+                "role": "assistant"
+            }
+        ],
+        "rejected": [
+            {
+                "content": "Describe this image in detail.",
+                "role": "user"
+            },
+            {
+                "content": "The image showcases a herd of sheep spread across a grassy field, with some sheep lying down and others standing. There are both adult sheep and baby lambs, including several baby lambs that lay near their mothers. All the sheep in the scene have white wool. The sheep cover different areas of the field, with one sheep located on the left side, a few in the middle, and others towards the right side of the image. They are standing or lying close to one another, seemingly grazing or resting in the open field.",
+                "role": "assistant"
+            }
+        ],
+        "img_similarity": 0.798708438873291
+    },
+    {
+        "idx": 7,
+        "image": "COCO_train2014_000000031329.jpg",
+        "retrieved_image": "COCO_train2014_000000352117.jpg",
+        "masked_response": "The image shows a [MASK] with a [MASK] in the middle of the [MASK]. A [MASK] is laying comfortably on the edge of the [MASK], possibly sleeping. There are multiple [MASK] around the [MASK], including two behind and one on each side of the [MASK]. A [MASK] can be seen in the background of the image, likely engaging in some [MASK]. A [MASK] is visible in the [MASK] alongside the dining area, and numerous [MASK] are placed around the [MASK]. Additionally, a [MASK] can be spotted near the top left corner of the [MASK], further suggesting that this area is part of a [MASK].",
+        "chosen": [
+            {
+                "content": "Describe this image in detail.",
+                "role": "user"
+            },
+            {
+                "content": "The image shows a living room with a dining table in the middle of the space. A white cat is laying comfortably on the edge of the table, possibly sleeping. There are multiple chairs around the table, including two behind and one on each side of the cat.  A person can be seen in the background of the image, likely engaging in some activity. A TV is visible in the room alongside the dining area, and numerous books are placed around the table. Additionally, a knife can be spotted near the top left corner of the table, further suggesting that this area is part of a kitchen.",
+                "role": "assistant"
+            }
+        ],
+        "rejected": [
+            {
+                "content": "Describe this image in detail.",
+                "role": "user"
+            },
+            {
+                "content": "The image shows a cat with a green bottle in the middle of the kitchen. A cat is laying comfortably on the edge of the refrigerator, possibly sleeping. There are multiple bottles around the refrigerator, including two behind and one on each side of the cat. A green bottle can be seen in the background of the image, likely engaging in some drinking. A bottle is visible in the refrigerator alongside the dining area, and numerous bottles are placed around the kitchen. Additionally, a bottle can be spotted near the top left corner of the kitchen, further suggesting that this area is part of a kitchen.",
+                "role": "assistant"
+            }
+        ],
+        "img_similarity": 0.7981923222541809
+    },
+    {
+        "idx": 8,
+        "image": "COCO_train2014_000000314064.jpg",
+        "retrieved_image": "COCO_train2014_000000160626.jpg",
+        "masked_response": "The image showcases a [MASK] soaring low over a [MASK]'s skyline. The [MASK] is [MASK], filling a significant portion of the scene above the [MASK], and its position is roughly in the middle horizontally. The [MASK] extends to the edge of the frame, with numerous [MASK] of varying sizes scattered on the [MASK] close to the [MASK]. These [MASK] are visibly concentrated towards the lower right side of the image, providing a bustling atmosphere in the [MASK] area.",
+        "chosen": [
+            {
+                "content": "Describe this image in detail.",
+                "role": "user"
+            },
+            {
+                "content": "The image showcases a large passenger jet soaring low over a major city's skyline. The airplane is flying, filling a significant portion of the scene above the city, and its position is roughly in the middle horizontally. The city extends to the edge of the frame, with numerous boats of varying sizes scattered on the water close to the shoreline. These boats are visibly concentrated towards the lower right side of the image, providing a bustling atmosphere in the urban area.",
+                "role": "assistant"
+            }
+        ],
+        "rejected": [
+            {
+                "content": "Describe this image in detail.",
+                "role": "user"
+            },
+            {
+                "content": "The image showcases a large airplane soaring low over a city's skyline. The airplane is white, filling a significant portion of the scene above the water, and its position is roughly in the middle horizontally. The city extends to the edge of the frame, with numerous buildings of varying sizes scattered on the water close to the airplane. These buildings are visibly concentrated towards the lower right side of the image, providing a bustling atmosphere in the city area.",
+                "role": "assistant"
+            }
+        ],
+        "img_similarity": 0.7466296553611755
+    },
+    {
+        "idx": 9,
+        "image": "COCO_train2014_000000039012.jpg",
+        "retrieved_image": "COCO_train2014_000000494112.jpg",
+        "masked_response": "The [MASK] in the image is [MASK].",
+        "chosen": [
+            {
+                "content": "What color is the fire hydrant in the image?",
+                "role": "user"
+            },
+            {
+                "content": "The fire hydrant in the image is white.",
+                "role": "assistant"
+            }
+        ],
+        "rejected": [
+            {
+                "content": "What color is the fire hydrant in the image?",
+                "role": "user"
+            },
+            {
+                "content": "The fire hydrant in the image is black.",
+                "role": "assistant"
+            }
+        ],
+        "img_similarity": 0.6685866117477417
+    }
+]

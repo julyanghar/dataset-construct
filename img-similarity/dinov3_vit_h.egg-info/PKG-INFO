@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: dinov3-vit-h
+Version: 0.1.0
+Summary: A minimal environment for DINOv3 image feature extraction and retrieval using Hugging Face Transformers.
+Author-email: Yilin Yang <yilin.yang@example.com>
+License: MIT
+Requires-Python: <3.12,>=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch==2.3.1
+Requires-Dist: torchvision==0.18.1
+Requires-Dist: transformers==4.56.0
+Requires-Dist: huggingface_hub==0.34.0
+Requires-Dist: accelerate==0.33.0
+Requires-Dist: tqdm==4.66.4
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pillow==10.4.0
+Requires-Dist: nvidia-ml-py==12.535.133
