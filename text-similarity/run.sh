@@ -1,8 +1,8 @@
 
 # data_path="/home/yilin/dataset-construct/preference_data/pref_data.json"
 # data_path="/home/yilin/dataset-construct/preference_data/yilin_pref_data_last_hidden_state.json"
-data_path="/home/yilin/dataset-construct/preference_data/yilin_pref_data_pooler_output.json"
-
+# data_path="/home/yilin/dataset-construct/preference_data/yilin_pref_data_pooler_output.json"
+data_path="/home/yilin/dataset-construct/generate_text/output/new_yilin_pooler_pref_data.json"
 
 pretrained_model_name="sentence-transformers/all-mpnet-base-v2"
 

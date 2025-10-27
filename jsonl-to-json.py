@@ -1,8 +1,8 @@
 import json
 from tqdm import tqdm
 
-input_path = "/home/yilin/dataset-construct/img-similarity/output/last_hidden_state/yilin_pref_data.jsonl"
-output_path = "/home/yilin/dataset-construct/img-similarity/output/last_hidden_state/yilin_pref_data.json"
+input_path = "/home/yilin/dataset-construct/yilin-DPO-dataset/silkie/vlfeedback_80k.jsonl"
+output_path = "/home/yilin/dataset-construct/yilin-DPO-dataset/silkie/vlfeedback_80k.json"
 
 data = []
 with open(input_path, "r", encoding="utf-8") as f:

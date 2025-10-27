@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 
 
-input_file = "/home/yilin/dataset-construct/preference_data/yilin_pref_data_last_hidden_state.json"
+input_file = "/home/yilin/dataset-construct/text-similarity/output/new_yilin_pooler_pref_data.json"
 # input_file = "/home/yilin/dataset-construct/preference_data/yilin_pref_data_pooler_output.json"
 
 
