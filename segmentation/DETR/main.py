@@ -14,10 +14,12 @@ MODEL_NAME = "facebook/detr-resnet-50-panoptic"
 IMAGE_DIR = "/home/yilin/dataset/train2014/"
 INPUT_JSON = "/home/yilin/dataset-construct/preference_data/pref_data.json"
 
-OUTPUT_MASKED_DIR = "/home/yilin/dataset-construct/segmentation/DETR/masked_topk/"
-OUTPUT_NOMASK_DIR = "/home/yilin/dataset-construct/segmentation/DETR/no_masked/"
-
 TOP_K = 2  # ← 你可以在这里调节 K 值
+
+OUTPUT_MASKED_DIR = f"/home/yilin/dataset-construct/segmentation/DETR/top{TOP_K}/masked_topk/"
+OUTPUT_NOMASK_DIR = f"/home/yilin/dataset-construct/segmentation/DETR/top{TOP_K}/no_masked/"
+
+
 
 os.makedirs(OUTPUT_MASKED_DIR, exist_ok=True)
 os.makedirs(OUTPUT_NOMASK_DIR, exist_ok=True)
