@@ -56,3 +56,5 @@ dinov3_vit_h.egg-info/
 yolov8x-seg.pt
 pooler_output/
 last_hidden_state/
+masked_topk/
+no_masked/
