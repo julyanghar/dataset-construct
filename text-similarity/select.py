@@ -65,7 +65,7 @@ def filter(input_path, output_path, threshold=0.9):
 if __name__ == "__main__":
     input_path = "/home/yilin/dataset-construct/preference_data/masked_pooler.json"
     output_path = "/home/yilin/dataset-construct/text-similarity/output/filterred.json"
-    filter(input_path, output_path, 0.9)
+    filter(input_path, output_path, 0.8)
 
        
 
